@@ -10,7 +10,7 @@
 ---
 
 ## Architecture Overview
-- AWS EC2 `t3.large` instances running Ubuntu 22.04 LTS.
+- AWS EC2 `t3.large` instances running Ubuntu 24.04 LTS.
 - `k3s-master-1` (172.31.42.150): API Server Initializer & etcd bootstrap node.
 - `k3s-master-2` & `k3s-master-3`: Control plane and worker nodes with shared etcd quorum.
 
